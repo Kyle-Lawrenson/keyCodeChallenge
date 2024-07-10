@@ -1,0 +1,22 @@
+* {background-color:mediumturquoise;}
+
+body { 
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: crimson;
+
+}
+
+
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly; 
+    justify-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
