@@ -3,25 +3,33 @@
 }
 
 body {
-    font-size: x-large; /* size of font */
+    font-size: x-large;
+    /* size of font */
 
     /* this changes the font style */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    color: #B37DEC; /* this changes the text color */
-    justify-content: center;/* this changes the position */
-    align-items: center;/* this changes the position */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #B37DEC;
+    /* this changes the text color */
+    justify-content: center;
+    /* this changes the position */
+    align-items: center;
+    /* this changes the position */
 }
 
 /* this places the header in the center of the line it is on */
 .header {
     display: flex;
-    flex-direction: row; /* tell it the orientation  */
-    justify-content: space-evenly; /* tells it where to add spaces */
-    text-decoration: underline; /* underlines text */
-    padding-bottom: 10%; /* adds space below this flex box */
+    flex-direction: row;
+    /* tell it the orientation  */
+    justify-content: space-evenly;
+    /* tells it where to add spaces */
+    text-decoration: underline;
+    /* underlines text */
+    padding-bottom: 10%;
+    /* adds space below this flex box */
 }
 
-h3{
+h3 {
     font-size: 24px;
     margin-bottom: 20px;
 }
@@ -29,20 +37,25 @@ h3{
 .info {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; /* give the content the specified spacing */
-    text-align: center; /* centers text */
-    
+    justify-content: space-evenly;
+    /* give the content the specified spacing */
+    text-align: center;
+    /* centers text */
+
 }
 
 /* this organises each square */
 .button {
     text-align: center;
     padding: 10px;
-    border-radius: 20px; /* size of border */
-    box-shadow: 0 0 20px #9245E3; /* color of shadow creating a border */
+    border-radius: 20px;
+    /* size of border */
+    box-shadow: 0 0 20px #9245E3;
+    /* color of shadow creating a border */
     font-size: 18px;
     margin: 10px 0;
-    font-weight: bold;/* makes font bold */
+    font-weight: bold;
+    /* makes font bold */
 }
 
 .boxes {
