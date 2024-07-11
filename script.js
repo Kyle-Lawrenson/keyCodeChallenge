@@ -16,6 +16,6 @@ document.addEventListener("keydown", (event) => {
         key.textContent = "n/a"
     } else {
         key.textContent = event.key
-    }
+    } // this tells it that nothing is displayed within the box
     
-})
+}) 
