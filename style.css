@@ -3,22 +3,22 @@
 }
 
 body {
-    font-size: x-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #B37DEC;
+    font-size: x-large; /* size of font */
+
+    /* this changes the font style */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #B37DEC; /* this changes the text color */
     justify-content: center;/* this changes the position */
     align-items: center;/* this changes the position */
-
-    height: 100vh;
-    margin: 0%;
 }
 
-
+/* this places the header in the center of the line it is on */
 .header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-decoration: underline;/* underlines text */
+    flex-direction: row; /* tell it the orientation  */
+    justify-content: space-evenly; /* tells it where to add spaces */
+    text-decoration: underline; /* underlines text */
+    padding-bottom: 10%; /* adds space below this flex box */
 }
 
 h3{
@@ -38,9 +38,9 @@ h3{
 .code, .key, .which {
     text-align: center;
     padding: 10px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px #9245E3;
+    border-radius: 20px; /* size of border */
+    box-shadow: 0 0 20px #9245E3; /* color of border */
     font-size: 18px;
     margin: 10px 0;
-    font-weight: bold;
+    font-weight: bold;/* makes font bold */
 }
