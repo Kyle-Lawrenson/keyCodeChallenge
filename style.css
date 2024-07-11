@@ -57,10 +57,11 @@ h3 {
     margin: 10px 0;
     font-weight: bold;
     /* makes font bold */
+    height: 80px;
+    width: 160px;
 }
 
 .boxes {
     display: flex;
     flex-direction: column;
-    
 }
