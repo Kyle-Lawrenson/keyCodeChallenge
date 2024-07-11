@@ -14,6 +14,7 @@ body {
     /* this changes the position */
     align-items: center;
     /* this changes the position */
+    flex-wrap: wrap;
 }
 
 /* this places the header in the center of the line it is on */
@@ -61,5 +62,5 @@ h3 {
 .boxes {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    
 }
