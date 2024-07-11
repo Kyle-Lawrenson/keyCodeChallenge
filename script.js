@@ -9,5 +9,13 @@ const key = document.getElementById("key")
 document.addEventListener("keydown", (event) => {
     code.textContent = event.code
     which.textContent = event.which
-    key.textContent = event.key
+
+    console.log(event.key);
+
+    if (event.key == " ") {
+        key.textContent = "n/a"
+    } else {
+        key.textContent = event.key
+    }
+    
 })
