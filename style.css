@@ -15,6 +15,7 @@ body {
     align-items: center;
     /* this changes the position */
     flex-wrap: wrap;
+    height: 100vh;
 }
 
 /* this places the header in the center of the line it is on */
@@ -26,7 +27,7 @@ body {
     /* tells it where to add spaces */
     text-decoration: underline;
     /* underlines text */
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     /* adds space below this flex box */
 }
 
